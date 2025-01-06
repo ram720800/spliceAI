@@ -17,7 +17,7 @@ export const Header = () => {
     <header className="fixed top-0 left-0 w-full py-10 z-50">
       <div className="container flex h-14 items-center max-lg:px-5">
         <a className="flex-1 cursor-pointer z-2 ">
-          <img src="/images/xora.svg" width={115} height={55} alt="Xora" />
+          <img src="/images/splice.svg" width={115} height={55} alt="splice" />
         </a>
 
         <div className={clsx("w-full max-lg:fixed max-lg:top-0 max-lg:w-full max-lg:bg-s2 max-lg:opacity-0", isOpen ? "max-lg:opacity-100" : "max-lg:pointer-events-none") }>
@@ -33,10 +33,10 @@ export const Header = () => {
                 <li className="nav-logo">
                   <LinkScroll to="hero" offset={-100} spy smooth className={clsx("max-lg:hidden transition-transform duration-500 cursor-pointer")}>
                     <img 
-                      src="/images/xora.svg"
+                      src="/images/splice.svg"
                       width={160}
                       height={55}
-                      alt="Xora"
+                      alt="splice"
                     />
                   </LinkScroll>
                 </li>
