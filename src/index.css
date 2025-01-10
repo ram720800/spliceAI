@@ -10,7 +10,7 @@
   }
 
   body {
-    @apply font-poppins text-[16px] tracking-[-0.03em] text-p5;
+    @apply font-poppins  text-[16px] tracking-[-0.03em] text-p5;
   }
 
   a {
@@ -124,7 +124,7 @@
   }
 
   .g7 {
-    background: linear-gradient(#1b275a, #0e1434);
+    background: linear-gradient(#4CF6ED,#977CEF);
   }
 
   .g8 {
@@ -182,7 +182,7 @@
 
   /* START of Hero */
   .hero-img_res {
-    @apply max-lg:-top-40 max-lg:left-[calc(50%-280px)] max-lg:w-[1160px] max-md:bottom-[-590px] max-md:left-[calc(50%-390px)] max-md:top-auto;
+    @apply max-lg:-top-96 max-lg:left-[calc(50%-280px)] max-lg:w-[1160px] max-md:bottom-[-590px] max-md:left-[calc(50%-390px)] max-md:top-auto;
   }
 
   /* END of Hero */
@@ -193,6 +193,7 @@
 
   .glow-before {
     @apply before:g8 before:absolute before:left-2/5 before:top-0 before:z-4 before:h-0.5 before:w-3/5 before:opacity-0 before:transition-all before:duration-500 before:content-[''] group-hover:before:left-4 group-hover:before:opacity-40;
+       
   }
 
   .glow-after {
