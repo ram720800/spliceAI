@@ -3,7 +3,7 @@ import "./App.css";
 import { Header } from "./sections/header";
 import { Hero } from "./sections/hero";
 import { Features } from "./sections/features";
-import { useState } from "react";
+import { useState , useEffect } from "react";
 
 function App() {
   return (

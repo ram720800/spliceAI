@@ -5,9 +5,9 @@ export default {
     extend: {
       colors: {
         p1: "#eaeae1",
-        p2: "#fed0ab",
+        p2: "#000",
         p3: "#fed0ab",
-        p4: "#c8c8c8",
+        p4: "#efefe5",
         p5: "#eaeae1",
         s1: "#0a090f",
         s2: "#0C1838",
@@ -28,7 +28,8 @@ export default {
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
-        poppins: ["Poppins", "sans-serif"],
+        sans: ["Violetsans", "Arial", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"]
       },
       transitionProperty: {
         borderColor: "border-color",

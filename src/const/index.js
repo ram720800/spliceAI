@@ -12,14 +12,37 @@ export const features = [
     },
   },
   {
-    id: "0",
+    id: "1",
     icon: "/images/sleep.png",
     caption: "Secure & trustworthy",
     title: "Sleep easy, we got your back",
-    text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Splice AI helps keeps your information secure and locked up tighter than Fort Knox",
+    text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Splice AI helps keeps your information locked up tighter than Fort Knox",
     button: {
       icon: "/images/docs.svg",
       title: "Try it out",
     },
+  },
+];
+
+export const details = [
+  {
+    id: "0",
+    icon: "/images/ai.png",
+    title: "AI automated video editing",
+  },
+  {
+    id: "1",
+    icon: "/images/collab.png",
+    title: "Collaborate with your team",
+  },
+  {
+    id: "2",
+    icon: "/images/cloud.png",
+    title: "Ultra fast cloud-engine",
+  },
+  {
+    id: "3",
+    icon: "/images/support.png",
+    title: "24 / 7 Customer support",
   },
 ];

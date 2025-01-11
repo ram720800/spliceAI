@@ -1,5 +1,5 @@
 import { Element } from "react-scroll";
-import { features } from "../const";
+import { details, features } from "../const";
 import { Button } from "../components/button";
 
 export const Features = () => {
@@ -7,7 +7,7 @@ export const Features = () => {
     <section>
       <Element name="features">
         <div className="container">
-          <div className="relative flex flex-nowrap border-2 border-p4 rounded-7xl md:flex-wrap md:overflow-hidden max-md:flex-col feature-after  max-md:border-none max-md:rounded-none max-md:gap-3">
+          <div className="relative flex flex-nowrap border border-p4 rounded-7xl md:flex-wrap md:overflow-hidden max-md:flex-col feature-after  max-md:border-none max-md:rounded-none max-md:gap-3">
             {features.map(({ id, icon, caption, text, title, button }) => (
               <div
                 key={id}
@@ -15,7 +15,7 @@ export const Features = () => {
               >
                 <div className="w-full flex justify-start items-start">
                   <div className="-ml-3 mb-12 flex items-center justify-center flex-col">
-                    <div className="w-0.5 h-16 bg-s1" />
+                    <div className="w-px h-16" />
                     <img
                       src={icon}
                       className="size-28 object-contain"
@@ -28,13 +28,32 @@ export const Features = () => {
                 <h2 className="max-w-400 mb-7 h3 text-p4 max-md:mb-6 max-md:h5 text-left">
                   {title}
                 </h2>
-                <p className="mb-11 body-1 max-md:mb-8 max-md:body-3 text-left">
-                  {" "}
+                <p className="mb-11 body-1 max-md:mb-8 max-md:body-3 text-left ">
                   {text}
                 </p>
                 <Button icon={button.icon}>{button.title}</Button>
               </div>
             ))}
+            <ul className="relative flex justify-around flex-grow px-[5%] border border-p4 rounded-7xl max-md:hidden">
+              <div className="absolute bg-p2 top-[38%] left-0 right-0 w-full h-[1px] z-10" />
+              {details.map(({ id, icon, title }) => (
+                <li key={id} className="relative pt-16 px-4 pb-14">
+                  <div className="absolute top-0 bottom-0 left-1/2 bg-p2 w-[1px] h-full z-10" />
+                  <div className="flex items-center justify-center mx-auto mb-3  transition-all duration-500 size-28">
+                    <img
+                      src={icon}
+                      alt="title"
+                      className="size-17/20 object-contain z-20 "
+                    />
+                  </div>
+                  <h3 className="relative z-2 mx-auto max-w-32 my-0 base-small text-center uppercase">{ title}</h3>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="relative max-md:hidden">
+            <h1 className="h3 text-p4 text-left my-24 w-[500px]">The Ecosystem behind Splice AI</h1>
+            <img src="/images/ecosystem.png" alt="ecosystem" className="w-[849px] h-[498px] ml-14" />
           </div>
         </div>
       </Element>

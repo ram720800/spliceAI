@@ -10,7 +10,7 @@ export const Hero = () => {
             <div className="caption uppercase small-2 text-p3">
               Video editing
             </div>
-            <h1 className="h1 mb-6 text-p4 uppercase max-lg:mb-7 max-lg:h2 max-md:mb-4 max-md:text-5xl max-md:leading-12 w-[500px]">
+            <h1 className="h2 mb-6 text-p4 uppercase max-lg:mb-7 max-lg:h2 max-md:mb-4 max-md:text-5xl max-md:leading-12 w-[500px]">
               Amazingly Simplified
             </h1>
             <p className="max-w-440 max-lg:md-5 max-md:mb-10 mb-14 body-1">
