@@ -53,7 +53,23 @@ export const Features = () => {
           </div>
           <div className="relative max-md:hidden">
             <h1 className="h3 text-p4 text-left my-24 w-[500px]">The Ecosystem behind Splice AI</h1>
-            <img src="/images/ecosystem.png" alt="ecosystem" className="w-[849px] h-[498px] ml-14" />
+            <img src="/images/ecosystem.png" alt="ecosystem" className="w-[849px] h-[498px] ml-20" />
+            <div className="relative flex justify-around items-center">
+              <div className="border border-p5 p-5 -translate-y-56">01</div>
+              <div className="border border-p5 p-5 -translate-y-[26rem] ">02</div>
+              <div className="border border-p5 p-5 -translate-y-36 -translate-x-32">03</div>
+              <div className="border border-p5 p-5 -translate-y-[22rem] -translate-x-36">04</div>
+            </div>
+            <div className="grid grid-cols-2 gap-10 mt-10 text-start border border-p4 p-8 rounded-7xl" >
+              <div className="h4">AI Models & Tools</div>
+              <div className="body-2 ">Splice AI offers advanced AI models and tools explicitly designed for video editing, text and audio editing</div>
+              <div className="h4">Customize your video</div>
+              <div className="body-2">Replace the AI avatar, colors, fonts, layouts and more with splice.</div>
+              <div className="h4">Collaborate</div>
+              <div className="body-2">Share your video and let others comment and collaborate</div>
+              <div className="h4">Share and export</div>
+              <div className="body-2"> Download your video, get a share link, or embed it anywhere.</div>
+            </div>
           </div>
         </div>
       </Element>
