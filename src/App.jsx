@@ -3,6 +3,7 @@ import "./App.css";
 import { Header } from "./sections/header";
 import { Hero } from "./sections/hero";
 import { Features } from "./sections/features";
+import { Pricing } from "./sections/pricing";
 import { useState , useEffect } from "react";
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <main className="overflow-hidden">
       <Header />
       <Hero />
-      <Features/>
+      <Features />
+      <Pricing />
     </main>
   );
 }
