@@ -6,7 +6,7 @@ export default {
       colors: {
         p1: "#eaeae1",
         p2: "#000",
-        p3: "#fed0ab",
+        p3: "#ff7120",
         p4: "#efefe5",
         p5: "#eaeae1",
         s1: "#0a090f",
@@ -28,8 +28,7 @@ export default {
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
-        sans: ["Violetsans", "Arial", "sans-serif"],
-        poppins: ["Poppins", "sans-serif"]
+        poppins: ["Roboto Mono", "sans-serif"]
       },
       transitionProperty: {
         borderColor: "border-color",

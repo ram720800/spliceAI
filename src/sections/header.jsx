@@ -47,7 +47,7 @@ export const Header = () => {
       <div className="container flex h-14 items-center max-lg:px-5">
         <a className="flex-1 cursor-pointer z-2 ">
           <img
-            src="/images/spliceai.svg"
+            src="/images/spliceai1.svg"
             width={115}
             height={55}
             alt="splice"
@@ -80,7 +80,7 @@ export const Header = () => {
                     )}
                   >
                     <img
-                      src="/images/spliceai.svg"
+                      src="/images/spliceai1.svg"
                       width={160}
                       height={55}
                       alt="splice"

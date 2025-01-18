@@ -7,7 +7,7 @@ export const Features = () => {
     <section>
       <Element name="features">
         <div className="container">
-          <div className="relative flex flex-nowrap border border-p4 rounded-7xl md:flex-wrap md:overflow-hidden max-md:flex-col feature-after  max-md:border-none max-md:rounded-none max-md:gap-3">
+          <div className="relative flex flex-nowrap border-2 border-p4 rounded-7xl md:flex-wrap md:overflow-hidden max-md:flex-col feature-after  max-md:border-none max-md:rounded-none max-md:gap-3">
             {features.map(({ id, icon, caption, text, title, button }) => (
               <div
                 key={id}
@@ -34,7 +34,7 @@ export const Features = () => {
                 <Button icon={button.icon}>{button.title}</Button>
               </div>
             ))}
-            <ul className="relative flex justify-around flex-grow px-[5%] border border-p4 rounded-7xl max-md:hidden">
+            <ul className="relative flex justify-around flex-grow px-[5%] border-2 border-p4 rounded-7xl max-md:hidden">
               <div className="absolute bg-p2 top-[38%] left-0 right-0 w-full h-[1px] z-10" />
               {details.map(({ id, icon, title }) => (
                 <li key={id} className="relative pt-16 px-4 pb-14">
@@ -60,15 +60,21 @@ export const Features = () => {
               <div className="border border-p5 p-5 -translate-y-36 -translate-x-32">03</div>
               <div className="border border-p5 p-5 -translate-y-[22rem] -translate-x-36">04</div>
             </div>
-            <div className="grid grid-cols-2 gap-10 mt-10 text-start border border-p4 p-8 rounded-7xl" >
+            <div className="grid grid-cols-2 gap-10 mt-10 text-start border-2 border-p4 p-8 rounded-lg" >
               <div className="h4">AI Models & Tools</div>
-              <div className="body-2 ">Splice AI offers advanced AI models and tools explicitly designed for video editing, text and audio editing</div>
+              <div className="body-2 ">Splice AI offers advanced AI models and tools explicitly designed for video editing</div>
               <div className="h4">Customize your video</div>
               <div className="body-2">Replace the AI avatar, colors, fonts, layouts and more with splice.</div>
               <div className="h4">Collaborate</div>
               <div className="body-2">Share your video and let others comment and collaborate</div>
               <div className="h4">Share and export</div>
               <div className="body-2"> Download your video, get a share link, or embed it anywhere.</div>
+            </div>
+            <div className="relative flex justify-around items-center">
+              <div className="p-5 -translate-y-[26rem] -translate-x-[10.3rem]">01</div>
+              <div className="p-5 -translate-y-[19rem]  -translate-x-[27rem]">02</div>
+              <div className="p-5 -translate-y-[12.5rem] -translate-x-[43.7rem]">03</div>
+              <div className="p-5 -translate-y-[6rem] -translate-x-[60.4rem]">04</div>
             </div>
           </div>
         </div>
