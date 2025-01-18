@@ -8,14 +8,14 @@ export const Hero = () => {
         <div className="container">
           <div className="relative z-2 max-w:512 max-lg:max-w-388 text-left">
             <div className="caption uppercase small-1 text-p3">
-              Video editing
+              Introducing Splice AI
             </div>
-            <h1 className="h1 mb-6 text-p4 uppercase max-lg:mb-7 max-lg:h2 max-md:mb-4 max-md:text-5xl max-md:leading-12 w-[500px]">
-              Amazingly Simplified
+            <h1 className="h2 mb-6 text-p4 uppercase max-lg:mb-7 max-lg:h2 max-md:mb-4 max-md:text-5xl max-md:leading-12 w-[500px]">
+              The future of video editing is here
             </h1>
             <p className="max-w-440 max-lg:md-5 max-md:mb-10 mb-14 body-2">
-              Splice AI is a video editor tool for powering your editing and
-              easy to use tool
+              Splice AI is the first video editing tool that uses AI to make
+              editing videos as simple as editing text.
             </p>
             <LinkScroll
               to="features"

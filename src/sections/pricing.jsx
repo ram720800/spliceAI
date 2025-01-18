@@ -17,7 +17,7 @@ export const Pricing = () => {
               Flexible pricing
             </h3>
 
-            <div className="relative z-4 mx-auto flex  w-[375px] rounded-3xl border border-p4 p-2 backdrop-blur-[6px] max-md:w-[310px]">
+            <div className="relative z-4 mx-auto flex  w-[375px] rounded-3xl border-2 border-p4 p-2 backdrop-blur-[6px] max-md:w-[310px]">
               <button
                 onClick={() => setIsMonthly(true)}
                 className={clsx("pricing-head_btn", isMonthly && "text-p4")}
@@ -46,7 +46,7 @@ export const Pricing = () => {
             {plans.map((plan, index) => (
               <div
                 key={plan.id}
-                className="pricing-plan_first pricing-plan_last pricing-plan_odd pricing-plan_even relative border p-7 max-xl:min-w-80 max-lg:rounded-3xl xl:w-[calc(33.33%+2px)] "
+                className="pricing-plan_first pricing-plan_last pricing-plan_odd pricing-plan_even relative border-2 p-7 max-xl:min-w-80 max-lg:rounded-3xl xl:w-[calc(33.33%+2px)] "
               >
                 {index === 1 && (
                   <div className="absolute h-330 left-0 right-0 z-1 rounded-tl-3xl rounded-tr-3xl " />

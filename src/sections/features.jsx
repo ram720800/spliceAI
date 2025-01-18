@@ -38,7 +38,7 @@ export const Features = () => {
               <div className="absolute bg-p2 top-[38%] left-0 right-0 w-full h-[1px] z-10" />
               {details.map(({ id, icon, title }) => (
                 <li key={id} className="relative pt-16 px-4 pb-14">
-                  <div className="absolute top-0 bottom-0 left-1/2 bg-p2 w-[1px] h-full z-10" />
+                  <div className="absolute top-0 bottom-0 left-1/2 bg-s2 w-[1px] h-full -z-10" />
                   <div className="flex items-center justify-center mx-auto mb-3  transition-all duration-500 size-28">
                     <img
                       src={icon}
