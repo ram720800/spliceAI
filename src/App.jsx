@@ -5,6 +5,8 @@ import { Hero } from "./sections/hero";
 import { Features } from "./sections/features";
 import { Pricing } from "./sections/pricing";
 import { Faq } from "./sections/faq";
+import { Download } from "./sections/download";
+import { Footer } from "./sections/footer";
 import { useState , useEffect } from "react";
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <Features />
       <Pricing />
       <Faq />
+      <Download />  
+      <Footer />
     </main>
   );
 }

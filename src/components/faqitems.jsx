@@ -8,14 +8,14 @@ export const FaqItems = ({ item, index }) => {
     const active = isActive === item.id;
 
     return (
-        <div className="relative z-6 mb-16">
-            <div className="group relative flex items-center justify-between cursor-pointer gap-10 px-7 border p-5 rounded-md" onClick={() => {setIsActive(isActive===item.id ? null : item.id) }}>
+        <div className="relative z-6 mb-8">
+            <div className="group relative flex items-center justify-between cursor-pointer gap-10 px-7 border p-2 rounded-md" onClick={() => {setIsActive(isActive===item.id ? null : item.id) }}>
                 <div className="flex ">
                     <div className="small mb-1.5 text-p3 max-lg:hidden text-start mr-4">
                         {index <= 5 ? "0" : ""}
                         {index}
                     </div>
-                    <div className={clsx('h6 text-p4 transition-colors duration-500 max-md:flex max;md:min-h-20 max-md:items-center text-start', active && 'max-lg:text-p1')}>
+                    <div className={clsx('h6 text-p4 transition-colors duration-500 max-md:flex max-md:min-h-20 max-md:items-center text-start', active && 'max-lg:text-p1')}>
                         {item.question}
                     </div>
                 </div>
