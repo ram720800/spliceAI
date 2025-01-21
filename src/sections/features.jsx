@@ -53,12 +53,12 @@ export const Features = () => {
           </div>
           <div className="relative max-md:hidden">
             <h1 className="h3 text-p4 text-left my-24 w-[500px]">The Ecosystem behind Splice AI</h1>
-            <img src="/images/ecosystem.png" alt="ecosystem" className="w-[849px] h-[498px] ml-20" />
+            <img src="/images/ecosystem.png" alt="ecosystem" className="w-[849px] h-[498px] ml-20 max-xl:ml-4" />
             <div className="relative flex justify-around items-center">
               <div className="border border-p5 p-5 -translate-y-56">01</div>
-              <div className="border border-p5 p-5 -translate-y-[26rem] ">02</div>
-              <div className="border border-p5 p-5 -translate-y-36 -translate-x-32">03</div>
-              <div className="border border-p5 p-5 -translate-y-[22rem] -translate-x-36">04</div>
+              <div className="border border-p5 p-5 -translate-y-[26rem] max-xl:translate-x-16">02</div>
+              <div className="border border-p5 p-5 -translate-y-36 -translate-x-32 max-xl:translate-x-1">03</div>
+              <div className="border border-p5 p-5 -translate-y-[22rem] -translate-x-36 max-xl:translate-x-10">04</div>
             </div>
             <div className="grid grid-cols-2 gap-10 mt-10 text-start border-2 border-p4 p-8 rounded-lg" >
               <div className="h4">AI Models & Tools</div>

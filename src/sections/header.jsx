@@ -56,7 +56,7 @@ export const Header = () => {
 
         <div
           className={clsx(
-            "w-full max-lg:fixed max-lg:top-0 max-lg:w-full max-lg:bg-s2 max-lg:opacity-0",
+            "w-full max-lg:fixed max-lg:top-0 max-lg:w-full max-lg:bg-s1 max-lg:opacity-0",
             isOpen ? "max-lg:opacity-100" : "max-lg:pointer-events-none"
           )}
         >
@@ -117,11 +117,11 @@ export const Header = () => {
         </div>
 
         <button
-          className="lg:hidden z-2 size-10 border-2 border-s4/25 rounded-full flex justify-center items-center"
+          className="lg:hidden z-2 size-10 flex justify-center items-center"
           onClick={() => setIsOpen((prev) => !prev)}
         >
           <img
-            src={`/images/${isOpen ? "close" : "magic"}.svg`}
+            src={`/images/${isOpen ? "close (2)" : "magic"}.svg`}
             alt="Menu"
             className="size-1/2 object-contain"
           />

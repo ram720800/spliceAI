@@ -28,7 +28,7 @@ export default {
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
-        poppins: ["Roboto Mono", "sans-serif"]
+        roboto: ["Roboto Mono", "sans-serif"]
       },
       transitionProperty: {
         borderColor: "border-color",

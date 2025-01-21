@@ -17,7 +17,7 @@ export const Pricing = () => {
               Flexible pricing
             </h3>
 
-            <div className="relative z-4 mx-auto flex  w-[375px] rounded-3xl border-2 border-p4 p-2 backdrop-blur-[6px] max-md:w-[310px]">
+            <div className="relative z-4 mx-auto flex w-[375px] rounded-3xl border-2 border-p4 p-2 backdrop-blur-[6px] max-md:w-[290px]">
               <button
                 onClick={() => setIsMonthly(true)}
                 className={clsx("pricing-head_btn", isMonthly && "text-p4")}
