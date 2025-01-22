@@ -29,7 +29,7 @@ export const Footer = () => {
         </div>
         <div className="faq-glow_before relative z-2 border-2 border-s2 bg-s1 w-full max-lg:-translate-y-10" />
 
-        <div className="grid grid-cols-3 body-1 text-start max-w-[880px] max-lg:grid max-lg:grid-cols-2  pt-20">
+        <div className="grid grid-cols-3 body-1 text-start max-lg:grid max-lg:grid-cols-2  pt-20">
           <ul>
             <li className="opacity-70">Quick links</li>
             <li>Features</li>

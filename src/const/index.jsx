@@ -15,7 +15,7 @@ export const features = [
     icon: "/images/sleep.png",
     caption: "Secure & trustworthy",
     title: "Sleep easy, we got your back",
-    text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Splice AI helps keeps your information locked up tighter than Fort Knox",
+    text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Splice AI helps keeps your information secure and locked up tighter than Fort Knox",
     button: {
       icon: "/images/logo_02.png",
       title: "Try it out",
@@ -50,8 +50,8 @@ export const plans = [
   {
     id: "0",
     title: "Basic",
-    priceMonthly: 20,
-    priceYearly: 10,
+    priceMonthly: 19,
+    priceYearly: 9,
     caption: "Best for solo creators",
     features: [
       "100MB Cloud storage",

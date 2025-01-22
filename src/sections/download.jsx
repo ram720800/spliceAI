@@ -32,7 +32,7 @@ export const Download = () => {
               </ul>
             </div>
 
-            <div className="mb-10 max-lg:hidden ">
+            <div className="mb-10 max-md:hidden ">
               <div className="relative mt-4">
                 <img src="/images/download.png" alt="download"/>
               </div>

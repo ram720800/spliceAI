@@ -28,11 +28,6 @@ export const FaqItems = ({ item, index }) => {
             <SlideDown>
                 {isActive === item.id && <div className="body-3 px-7 py-3.5 text-start">{item.answer}</div>}
             </SlideDown>
-
-            {/* <div>
-                <div className="g4 absolute inset-0.5 -z-1 rounded">
-                </div>
-            </div> */}
         </div>
     )
 }
