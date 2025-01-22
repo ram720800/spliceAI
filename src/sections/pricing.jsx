@@ -42,7 +42,7 @@ export const Pricing = () => {
 
           {/*  pricing */}
 
-          <div className="scroll-hide z-2 relative -mt-12 flex items-start max-xl:pt-6 max-xl:gap-5 max-xl:overflow-auto">
+          <div className="scroll-hide z-2 relative -mt-12 flex items-start max-xl:pt-12 max-xl:gap-5 max-xl:overflow-auto">
             {plans.map((plan, index) => (
               <div
                 key={plan.id}
@@ -53,8 +53,8 @@ export const Pricing = () => {
                 )}
                 <div
                   className={clsx(
-                    "absolute left-0 right-0 z-2 flex items-center justify-center max-lg:hidden",
-                    index === 1 ? "-top-16" : "-top-6 xl:-top-11"
+                    "absolute left-0 right-0 z-2 flex items-center justify-center",
+                    index === 1 ? "-top-16" : "-top-6 max-xl:-top-11"
                   )}
                 >
                   <img

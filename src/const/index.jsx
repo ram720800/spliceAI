@@ -42,7 +42,7 @@ export const details = [
   {
     id: "3",
     icon: "/images/support.png",
-    title: "24 / 7 Customer support",
+    title: "24/7 Customer support",
   },
 ];
 

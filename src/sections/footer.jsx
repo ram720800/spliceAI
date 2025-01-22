@@ -29,7 +29,7 @@ export const Footer = () => {
         </div>
         <div className="faq-glow_before relative z-2 border-2 border-s2 bg-s1 w-full max-lg:-translate-y-10" />
 
-        <div className="grid grid-cols-3 body-1 text-start max-lg:grid max-lg:grid-cols-2  pt-20">
+        <div className="grid grid-cols-3 body-1 text-start max-md:grid-cols-2  pt-20">
           <ul>
             <li className="opacity-70">Quick links</li>
             <li>Features</li>
@@ -37,7 +37,7 @@ export const Footer = () => {
             <li>FAQ</li>
             <li>Download</li>
           </ul>
-          <ul className="max-lg:text-end">
+          <ul className="max-md:text-end">
             <li className="opacity-70">Legal</li>
             <li>Terms & condition</li>
             <li>Privacy Policy</li>
@@ -45,7 +45,7 @@ export const Footer = () => {
             <li>Cookie Policy</li>
           </ul>
           <ul>
-            <div className="flex flex-1 items-center gap-7 ml-24 max-lg:ml-0 max-lg:mt-10">
+            <div className="flex flex-1 items-center gap-7 ml-24 max-lg:ml-0 max-md:mt-10">
               {socials.map(({ id, title, icon, url }) => (
                 <li key={id}>
                   <a href={url}>

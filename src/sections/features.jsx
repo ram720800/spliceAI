@@ -7,15 +7,14 @@ export const Features = () => {
     <section>
       <Element name="features">
         <div className="container">
-          <div className="relative flex flex-nowrap border-2 border-p4 rounded-7xl md:flex-wrap md:overflow-hidden max-md:flex-col feature-after  max-md:border-none max-md:rounded-none max-md:gap-3">
+          <div className="relative flex flex-nowrap md:flex-wrap border-2 border-p4 rounded-7xl md:overflow-hidden max-md:flex-col feature-after max-md:border-none max-md:rounded-none max-md:gap-3">
             {features.map(({ id, icon, caption, text, title, button }) => (
               <div
                 key={id}
-                className="relative z-2 md:px-10 px-5 md:pb-10 pb-5 flex-50  max-md:border-2 max-md:border-p4 max-md:rounded-3xl max-md:flex-320"
+                className="relative z-2 md:px-10 px-5 md:pb-10 pb-5 flex-50  max-md:border-2 max-md:border-p4 max-md:rounded-3xl max-md:flex-320 max-md:bg-s3 "
               >
                 <div className="w-full flex justify-start items-start">
-                  <div className="-ml-3 mb-12 flex items-center justify-center flex-col">
-                    <div className="w-px h-16" />
+                  <div className="-ml-3 mb-1 flex items-center justify-center flex-col">
                     <img
                       src={icon}
                       className="size-28 object-contain"
@@ -25,7 +24,7 @@ export const Features = () => {
                 </div>
 
                 <p className="caption mb-5 max-md:mb-6 text-left">{caption}</p>
-                <h2 className="max-w-400 mb-7 h3 text-p4 max-md:mb-6 max-md:h5 text-left">
+                <h2 className="max-w-400 mb-7 h3 text-p4 max-md:mb-6 max-xl:h5 text-left">
                   {title}
                 </h2>
                 <p className="mb-11 body-1 max-md:mb-8 max-md:body-3 text-left ">
@@ -53,12 +52,12 @@ export const Features = () => {
           </div>
           <div className="relative max-md:hidden">
             <h1 className="h3 text-p4 text-left my-24 w-[500px]">The Ecosystem behind Splice AI</h1>
-            <img src="/images/ecosystem.png" alt="ecosystem" className="w-[849px] h-[498px] ml-20 max-xl:ml-4 max-xl:w-[749px] max-xl:h-[398px]" />
-            <div className="relative flex justify-around items-center">
-              <div className="border border-p5 p-5 -translate-y-56 max-xl:-translate-y-48">01</div>
-              <div className="border border-p5 p-5 -translate-y-[26rem] max-xl:translate-x-16 max-xl:-translate-y-[22rem]">02</div>
-              <div className="border border-p5 p-5 -translate-y-36 -translate-x-32 max-xl:translate-x-1 max-xl:-translate-y-[7rem]">03</div>
-              <div className="border border-p5 p-5 -translate-y-[22rem] -translate-x-36 max-xl:translate-x-10 max-xl:-translate-y-[20rem]">04</div>
+            <img src="/images/ecosystem.png" alt="ecosystem" className="w-[849px] h-[498px] ml-20 max-xl:hidden" />
+            <div className="relative flex justify-around items-center max-xl:hidden">
+              <div className="border border-p5 p-5 -translate-y-56">01</div>
+              <div className="border border-p5 p-5 -translate-y-[26rem]">02</div>
+              <div className="border border-p5 p-5 -translate-y-36 -translate-x-32">03</div>
+              <div className="border border-p5 p-5 -translate-y-[22rem] -translate-x-36">04</div>
             </div>
           </div>
           
@@ -74,7 +73,7 @@ export const Features = () => {
               <div className="body-2"> Download your video, get a share link, or embed it anywhere.</div>
             </div>
           
-            <div className="relative flex justify-around items-center">
+            <div className="relative flex justify-around items-center max-lg:hidden">
               <div className="p-5 -translate-y-[26rem] -translate-x-[10.3rem]">01</div>
               <div className="p-5 -translate-y-[19rem]  -translate-x-[27rem]">02</div>
               <div className="p-5 -translate-y-[12.5rem] -translate-x-[43.7rem]">03</div>
