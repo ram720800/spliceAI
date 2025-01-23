@@ -36,7 +36,7 @@ export const Button = ({
     <button
       onClick={onClick}
       className={clsx(
-        "relative, p-0.5 rounded-2xl shadow-500 group border border-p5 bg-p2 "
+        "relative, p-0.5 rounded-2xl shadow-500 group border border-p5 bg-s3"
       )}
     >
       <Inner />

@@ -10,7 +10,7 @@ export const Download = () => {
       >
         <div className="container">
           <div className="flex justify-center items-center">
-            <div className="reative mr-6 flex-540 max-xl:flex-280 max-lg:flex-256 max-md:flex-100">
+            <div className="reative mr-6 max-sm:mr-2 flex-540 max-xl:flex-280 max-lg:flex-256 max-md:flex-100">
               <div className="mb-10">
                 <img src="/images/faq.png" alt="logo" width={100} height={55} />
               </div>

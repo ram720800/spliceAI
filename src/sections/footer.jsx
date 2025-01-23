@@ -14,7 +14,7 @@ export const Footer = () => {
             <img src="/images/spliceai.svg" alt="logo" />
           </div>
           <div>
-            <p className="text-xl -translate-x-16 max-lg:text-sm max-xl:w-[300px] max-lg:pl-14 max-lg:pt-4">Subscribe to be in touch*</p>
+            <p className="text-xl -translate-x-14 max-lg:text-sm max-xl:w-[300px] max-lg:pl-14 max-lg:pt-4">Subscribe to be in touch*</p>
             <input
               type="text"
               value={isValue}
@@ -24,7 +24,7 @@ export const Footer = () => {
             />
           </div>
           <div>
-            <button className="border rounded-md p-2 translate-y-6 max-lg:w-full">Subscribe</button>
+            <button className="border rounded-md p-2 translate-y-6 max-lg:w-full bg-s3">Subscribe</button>
           </div>
         </div>
         <div className="faq-glow_before relative z-2 border-2 border-s2 bg-s1 w-full max-lg:-translate-y-10" />
@@ -62,7 +62,7 @@ export const Footer = () => {
             <p>&copy; 2025</p>
           </div>
           <div>
-            <p>Crafted by ram</p>
+            <p>Crafted by ram72</p>
           </div>
         </div>
       </div>

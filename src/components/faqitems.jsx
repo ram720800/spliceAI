@@ -9,7 +9,7 @@ export const FaqItems = ({ item, index }) => {
 
     return (
         <div className="relative z-6 mb-8">
-            <div className="group relative flex items-center justify-between cursor-pointer gap-10 px-7 border p-2 rounded-md" onClick={() => {setIsActive(isActive===item.id ? null : item.id) }}>
+            <div className="group relative flex items-center justify-between cursor-pointer gap-10 px-7 border p-2 rounded-md bg-s3" onClick={() => {setIsActive(isActive===item.id ? null : item.id) }}>
                 <div className="flex ">
                     <div className="small mb-1.5 text-p3 max-lg:hidden text-start mr-4">
                         {index <= 5 ? "0" : ""}

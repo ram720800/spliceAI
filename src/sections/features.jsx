@@ -1,6 +1,7 @@
 import { Element } from "react-scroll";
 import { details, features } from "../const";
 import { Button } from "../components/button";
+import clsx from "clsx";
 
 export const Features = () => {
   return (
@@ -75,9 +76,9 @@ export const Features = () => {
           
             <div className="relative flex justify-around items-center max-lg:hidden">
               <div className="p-5 -translate-y-[26rem] -translate-x-[10.3rem]">01</div>
-              <div className="p-5 -translate-y-[19rem]  -translate-x-[27rem]">02</div>
-              <div className="p-5 -translate-y-[12.5rem] -translate-x-[43.7rem]">03</div>
-              <div className="p-5 -translate-y-[6rem] -translate-x-[60.4rem]">04</div>
+              <div className="p-5 -translate-y-[19rem]  -translate-x-[28rem]">02</div>
+              <div className="p-5 -translate-y-[12.5rem] -translate-x-[45.5rem]">03</div>
+              <div className="p-5 -translate-y-[6rem] -translate-x-[63rem]">04</div>
             </div>
           </div>
           
